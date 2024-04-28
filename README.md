@@ -1,4 +1,5 @@
-# <p align="center">Hello, Welcome to Testing-WebDev! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"></p>
+# <p align="center">Hello, Welcome to SchoolQuiz-Development
+ <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"></p>
 
 <p align="center">This is a simple testing web page.<br/>It's designed to help developers test their code.<br></p>
 

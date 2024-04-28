@@ -1,0 +1,199 @@
+@import url(https://trickortreatvisualfactory.com/pablo/api/proyects/boxedround.css);
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+body {
+    font-family: "BoxedRound", sans-serif;
+    background-color: #dd6e6ec7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 2s ease-in-out;
+}
+
+#start-screen {
+    animation: fadeIn 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 2vh;
+    color: #e0e0e0;
+}
+
+#start-button {
+    background-color: #d74e4e;
+    border: none;
+    color: #fff;
+    padding: 1vh 2vh;
+    font-size: 1.2em;
+    border-radius: 0.4vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#start-button:hover {
+    background-color: #c43e3e;
+    transform: scale(1.05);
+}
+
+#author-button, #instagram-button, #github-button, #discord-button {
+    width: 6vh;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+
+#author-button {
+    position: absolute;
+    bottom: 1%;
+    right: 0.5%;
+    background-color: #d74e4e;
+    border: none;
+    color: #fff;
+    padding: 1vh 2vh;
+    font-size: 1.2em;
+    border-radius: 0.4vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#author-button:hover {
+    background-color: #c43e3e;
+    transform: scale(1.05);
+}
+
+#instagram-button {
+    position: absolute;
+    bottom: 8%;
+    right: 0.5%;
+    background-color: #d74e4e;
+    border: none;
+    color: #fff;
+    padding: 1vh 2vh;
+    font-size: 1.2em;
+    border-radius: 0.4vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#instagram-button:hover {
+    background-color: #c43e3e;
+    transform: scale(1.05);
+}
+
+#github-button {
+    position: absolute;
+    bottom: 15%;
+    right: 0.5%;
+    background-color: #d74e4e;
+    border: none;
+    color: #fff;
+    padding: 1vh 2vh;
+    font-size: 1.2em;
+    border-radius: 0.4vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#github-button:hover {
+    background-color: #c43e3e;
+    transform: scale(1.05);
+}
+
+#discord-button {
+    position: absolute;
+    bottom: 22%;
+    right: 0.5%;
+    background-color: #d74e4e;
+    border: none;
+    color: #fff;
+    padding: 1vh 2vh;
+    font-size: 1.2em;
+    border-radius: 0.4vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#discord-button:hover {
+    background-color: #c43e3e;
+    transform: scale(1.05);
+}
+
+#question-container {
+    animation: fadeIn 1s ease-in-out;
+    background-color: #fff;
+    border-radius: 0.4vh;
+    box-shadow: 1.4vh rgba(0,0,0,0.9);;
+    padding: 2vh;
+    width: 80%;
+    max-width: 50vh;
+    border-left: 0.5vh solid rgba(215, 78, 78, 0.9);
+}
+
+#question {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+#answer-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer {
+    background-color: #f9f9f9;
+    border: none;
+    padding: 1vh 1.5vh;
+    margin: 1vh 0;
+    text-align: center;
+    border-radius: 0.4vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.answer:hover {
+    background-color: #e0e0e0;
+    scale: 1.05;
+}
+
+#background-image {
+    position: absolute;
+    top: 30%;
+    left: 62%;
+    width: 3%;
+    height: auto;
+    z-index: 1;
+}
+
+#leave-button {
+    background-color: #d74e4e;
+    border: none;
+    color: #fff;
+    padding: 1vh 2vh;
+    font-size: 1em;
+    border-radius: 0.4vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#leave-button:hover {
+    background-color: #c43e3e;
+    transform: scale(1.05);
+}

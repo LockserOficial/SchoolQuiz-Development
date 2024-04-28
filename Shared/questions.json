@@ -1,0 +1,17 @@
+[
+    {
+        "question": "¿Con que lenguajes está hecha está página?",
+        "answers": ["HTML, CSS, JS", "JS", "Lua y Python"],
+        "correctAnswer": 0 
+    },
+    {
+        "question": "¿Cuantos años tienes Fabio?",
+        "answers": ["No lo sabe", "16", "2"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "¿Hugo no vino a clase, donde puede estar?",
+        "answers": ["Un MacPollo porfavor", "Jugando al Ordenador", "Haciendo Hambuguesas"],
+        "correctAnswer": 2
+    }
+]
